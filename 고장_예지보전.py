@@ -12,7 +12,7 @@ from sklearn.model_selection import train_test_split
 
 ### 분류 예측 ###
 def get_data() -> pd.DataFrame:
-    df = pd.read_csv('./data/slided_without_error2.csv',
+    df = pd.read_csv('./data/slided_without_error.csv',
                     dtype={'date_time': str, 'id': int, 'lat': float,
                            'lng': float, 'speed': int, 'temp': int,
                            'pres': int, 'noxIn': int, 'tempIn': int, 
