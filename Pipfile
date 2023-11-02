@@ -9,6 +9,7 @@ pycaret = "*"
 scikit-learn = "*"
 openpyxl = "*"
 watchdog = "*"
+colorama = "*"
 
 [dev-packages]
 
